@@ -21,7 +21,7 @@ Future enhancements may include a graphical user interface and additional featur
 
 # Requirements
 
-- Java Development Kit (JDK) 8 or higher
+- Java Development Kit (JDK) 16 or higher
 - Internet connection for API access
 
 
@@ -30,7 +30,7 @@ Future enhancements may include a graphical user interface and additional featur
 
 ```
 git clone https://github.com/TamarNoselidze/Workout-Planner.git
-cd workout-planner
+cd Workout-Planner
 ```
 
 2. Download Dependencies:
@@ -41,17 +41,17 @@ Create a `database.json` file in the root directory of the project. This file wi
 (a sample one is provided, feel free to overwrite)
 
 4. Compile the Code:
-Navigate to the `src` directory and compile the Java files:
+Navigate to the root directory and maven compile:
 ```
-javac -d ../bin com/workoutplanner/project/*.java
+mvn compile
 ```
 
 
 # Execution
 
-Navigate to the `bin` directory and run the WorkoutPlanner class:
+In the root directory run the WorkoutPlanner class:
 ```
-java com.workoutplanner.project.WorkoutPlanner
+mvn exec:java -Dexec.mainClass="com.workoutplanner.project.WorkoutPlanner"
 ```
 
 # Usage
