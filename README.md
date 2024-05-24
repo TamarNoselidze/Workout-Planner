@@ -64,6 +64,7 @@ Login: Log in with an existing account by entering your username and password.
 
 Exit: Exit the application.
 
+
 __Logged In Menu__
 
 Access Existing Data: View your saved exercises and nutritional information.
@@ -72,10 +73,12 @@ Make a New Request: Fetch new exercises or nutritional information.
 
 Exit: Log out and return to the main menu.
 
+
 __Fetch Exercises__
 
 1. General Exercises: Fetch exercises based on the target muscle.
 2. Tailored Exercises: Fetch exercises based on specific muscle, equipment, and intensity level.
+
 
 __Get Nutritional Information__
 
@@ -85,9 +88,9 @@ Enter your measurement units, sex, age, height, weight, and activity level to fe
 # API Integration
 The application integrates with the following APIs:
 
-* ExerciseDB API: Fetches general exercises based on the target muscle.
-* WorkoutDB API: Fetches tailored exercises based on specific criteria.
-* Nutrition Calculator API: Fetches detailed nutritional information.
+* [ExerciseDB API](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb): Fetches general exercises based on the target muscle.
+* [WorkoutDB API](https://rapidapi.com/naeimsalib/api/work-out-api1): Fetches tailored exercises based on specific criteria.
+* [Nutrition Calculator API](https://rapidapi.com/sprestrelski/api/nutrition-calculator): Fetches detailed nutritional information.
 
 
 
