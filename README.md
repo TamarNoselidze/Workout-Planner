@@ -34,11 +34,11 @@ cd Workout-Planner
 ```
 
 2. Download Dependencies:
-Ensure you have all required libraries. This project uses Gson for JSON parsing
+Ensure you have all required libraries. This project uses Gson for JSON parsing.
 
 3. Set Up the Database:
-Create a `database.json` file in the root directory of the project. This file will store user data.
-(a sample one is provided, feel free to overwrite)
+Create a `database.json` file in the root directory of the project. This file will store user data
+(a sample one is provided, feel free to overwrite).
 
 4. Compile the Code:
 Navigate to the root directory and maven compile:
@@ -59,13 +59,17 @@ mvn exec:java -Dexec.mainClass="com.workoutplanner.project.WorkoutPlanner"
 __Main Menu__ 
 
 Register: Create a new account by entering a username and password.
+
 Login: Log in with an existing account by entering your username and password.
+
 Exit: Exit the application.
 
 __Logged In Menu__
 
 Access Existing Data: View your saved exercises and nutritional information.
+
 Make a New Request: Fetch new exercises or nutritional information.
+
 Exit: Log out and return to the main menu.
 
 __Fetch Exercises__
@@ -75,6 +79,7 @@ __Fetch Exercises__
 
 __Get Nutritional Information__
 
+Enter your measurement units, sex, age, height, weight, and activity level to fetch and save nutritional information.
 
 
 # API Integration
